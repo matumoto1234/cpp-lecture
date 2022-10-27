@@ -1,0 +1,41 @@
+32
+/*
+ * @file lect-01b.cpp
+ * @brief Sample C++ source code of the second example in PL04: Programming C++
+ * @author Keitaro Naruse
+ * @date 2022-10-01
+ * @copyright MIT License
+*/
+//  Required for using std::cout, std::cin,  and std::endl
+#include <iostream>
+
+//  Required for using std::string
+#include <string>
+
+int main()
+{
+    //  An object of std::string
+    std::string name = "Keitaro Naruse";
+    //  Console out a length of the inputted name
+    std::cout << "The length of the name is " << name.size() << std::endl;
+
+    //  Make a text frame with '*' 
+    std::string frame(name.size(), '*');
+    //  Console out the frame
+    std::cout << frame << std::endl;
+    //  Console out the name
+    std::cout << name << std::endl;
+    //  Console out the frame again
+    std::cout << frame << std::endl;
+
+    return( 0 );
+}
+
+7
+;
+(
+)
+{
+}
+<
+>

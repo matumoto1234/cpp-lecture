@@ -1,0 +1,36 @@
+28
+/*
+ * @file lect-01a.cpp
+ * @brief Sample C++ source code of the first example in PL04: Programming C++
+ * @author Keitaro Naruse
+ * @date 2022-10-01
+ * @copyright MIT License
+*/
+//  Required for using std::cout, std::cin,  and std::endl
+#include <iostream>
+
+//  Required for using std::string
+#include <string>
+
+int main( ) {
+    //  Console out a text message
+    std::cout << "Please input your name: " << std::endl;
+
+    //  An object of std::string
+    std::string name;
+    //  Read a text from the console
+    std::cin >> name;
+
+    //  Console out a text message
+    std::cout << "Hello! " << name << std::endl;
+
+    return ( 0 );
+}
+
+6
+string
+std::string
+std::cin
+std::cout
+>>
+<<

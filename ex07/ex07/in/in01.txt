@@ -1,0 +1,30 @@
+18
+/**
+ * @file lect-00.cpp
+ * @brief Sample C++ source code of the first example in PL04: Programming C++
+ * @author Keitaro Naruse
+ * @date 2022-10-01
+ * @copyright MIT License
+ */
+
+//  Required for using std::cout and std::endl
+#include <iostream>
+
+int main( ) {
+    //  Console out a text message
+    std::cout << "Hello, world! Hello, C++!" << std::endl;
+
+    return 0;
+}
+
+10
+@file
+file
+@brief
+breif
+@author
+author
+@date
+date
+@copyright
+copyright
