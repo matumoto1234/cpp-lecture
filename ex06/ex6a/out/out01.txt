@@ -1,0 +1,5 @@
+I have a cat . You have a cat , too . 
+I have a dog . You have a dog , too . 
+I have dogs . You have dogs , too . 
+I have cute dogs . You have cute dogs , too . 
+I have very cute dogs . You have very cute dogs . 

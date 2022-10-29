@@ -1,0 +1,24 @@
+a I 
+a have 
+a a 
+a cat 
+a . 
+a You
+a have
+a a 
+a cat
+a ,
+a too
+a .
+p
+r cat dog
+p
+d a
+r dog dogs
+p
+i dogs cute
+p
+i cute very
+d ,
+d too
+p
