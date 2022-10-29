@@ -16,8 +16,8 @@ for inFilePath in $inFilePathList
 do
   outFilePath=`echo $inFilePath | sed -e "s/in/out/g"`
 
-  # 結果と正答の2ファイル間のdiffを見るだけ
-  ./a.out < $inFilePath > temp.txt && diff -q temp.txt $outFilePath && rm temp.txt
+  # 結果と正答の2ファイル間のdiffを見る
+  ./a.out < $inFilePath > temp.txt && diff --unified --color temp.txt $outFilePath && rm temp.txt
 
   if [ $? -ne 0 ]; then
     printf '\033[31m%s\033[m' '[WA] '
