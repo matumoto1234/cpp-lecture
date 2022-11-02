@@ -1,0 +1,7 @@
+6
+b 8 The earth lay white under the night sky. 
+p
+b 12 The train came out of the long tunnel into the snow country. 
+p
+b 8 The train pulled up at a signal stop.
+p

@@ -1,0 +1,7 @@
+12
+The train came out of the long tunnel into the snow country. 
+4
+1 the
+1 train
+2 out of
+2 the tunnel
