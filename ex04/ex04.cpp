@@ -9,11 +9,11 @@ struct Student {
   std::string first_name;
   std::string last_name;
   std::string student_id;
-  int midterm_exam_score;
+  int midterm_exam_score_;
   int final_exam_score;
   std::vector<int> assignment_score_list;
 
-  Student(): first_name(""), last_name(""), student_id(""), midterm_exam_score(0), final_exam_score(0), assignment_score_list() {}
+  Student(): first_name(""), last_name(""), student_id(""), midterm_exam_score_(0), final_exam_score(0), assignment_score_list() {}
 
   constexpr static std::size_t max_name_size = 16;
   constexpr static std::size_t max_student_id_size = 9;
@@ -53,7 +53,7 @@ struct Student {
   double total_score() const {
     constexpr double midterm_exam_ratio = 20.0;
     constexpr int midterm_exam_perfect_score = 100;
-    double midterm_exam = midterm_exam_ratio * midterm_exam_score / double(midterm_exam_perfect_score);
+    double midterm_exam = midterm_exam_ratio * midterm_exam_score_ / double(midterm_exam_perfect_score);
 
     constexpr double final_exam_ratio = 40.0;
     constexpr int final_exam_perfect_score = 100;
@@ -79,7 +79,7 @@ struct Student {
  */
 Student input_student() {
   Student s;
-  auto &&istream = (std::cin >> s.student_id >> s.first_name >> s.last_name >> s.midterm_exam_score >> s.final_exam_score);
+  auto &&istream = (std::cin >> s.student_id >> s.first_name >> s.last_name >> s.midterm_exam_score_ >> s.final_exam_score);
   if (istream.eof()) {
     return Student();
   }

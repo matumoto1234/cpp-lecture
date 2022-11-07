@@ -233,7 +233,7 @@ CompactNamespaces: false
 
 # コンストラクター初期化子リストと継承リストのインデントに使用する文字数: <Unsigned>
 # clang-format: 3.7
-ConstructorInitializerIndentWidth: 0
+ConstructorInitializerIndentWidth: 2
 
 
 # trueの場合、ブレースリストをC ++ 11ブレースリストに最適な形式に設定する: treu | false
@@ -446,7 +446,7 @@ ObjCSpaceBeforeProtocolList: false
 
 # 使用するパックコンストラクタイニシャライザスタイル: Never | BinPack | CurrentLine | NextLine
 # clang-format: 14
-# PackConstructorInitializers: NextLine
+PackConstructorInitializers: NextLine
 
 
 
@@ -587,7 +587,7 @@ SpaceBeforeCpp11BracedList: false
 
 # falseの場合、コンストラクタ初期化子のコロンの前にスペースが削除: true | false
 # clang-format: 7
-SpaceBeforeCtorInitializerColon: false
+SpaceBeforeCtorInitializerColon: true
 
 
 # falseの場合、継承コロンの前にスペースが削除: true | false
